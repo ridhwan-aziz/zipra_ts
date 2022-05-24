@@ -1,0 +1,39 @@
+{
+  "name": "zipra-ts",
+  "version": "2022.05.19.dev16.10",
+  "description": "Source code of Telegram Bot named Zipra Bot (@zipra_bot)",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc --build tsconfig.json"
+  },
+  "author": {
+    "name": "Aziz Ridhwan Pratama",
+    "email": "azizpratama@gnuweeb.org"
+  },
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "telegram": "^2.8.2",
+    "ts-node": "^10.7.0",
+    "tsc": "^2.0.4",
+    "typescript": "^4.6.4"
+  },
+  "repository": {
+    "url": "https://github.com/ridhwan-aziz/zipra_ts"
+  },
+  "readme": "https://github.com/ridhwan-aziz/zipra_ts/blob/master/README.md",
+  "maintainers": [
+    "ridhwan-aziz"
+  ],
+  "keywords": [
+    "telegram",
+    "telegram-bot",
+    "zipra-bot",
+    "zipra"
+  ],
+  "engines": {
+    "node": ">=12.x"
+  },
+  "packageManager": "yarn@3.2.1"
+}
